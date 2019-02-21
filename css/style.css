@@ -1,0 +1,255 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-image: url(../asset/Background.jpg);
+	background-repeat: repeat;
+}
+/* END OF BODY BACKGROUND */
+
+.photo-profile {
+	padding: 20px 0px;
+}
+.photo-profile .typed {
+	justify-content: center;
+	display: flex;
+}
+.photo-profile span {
+	margin-bottom: 30px;
+	text-align: center;
+	animation-name: rgb-animation-shadows-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 35px;
+	text-decoration: underline;
+}
+.photo-profile img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 30px 30px 30px 30px;
+	animation-name: rgb-shadows-home;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/* END OF PHOTO PROFILE */
+
+.personal-profile {
+	margin: 20px 0px;
+	color: white;
+}
+
+.personal-profile .head-name {
+	width: 1000px;
+	margin: 0 auto;
+}
+.personal-profile .head-name h1 {
+	width: 1000px;
+	margin: 0 auto;
+	animation-name: rgb-animation-shadows-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+}
+
+.personal-profile .container-personal {
+	width: 1000px;
+	margin: 15px auto 0;
+	display: flex;
+}
+.personal-profile .container-personal .personal-left {
+	width: 400px;
+	padding: 0 20px;
+}
+.personal-profile .container-personal .personal-left p {
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.personal-profile .container-personal .personal-right {
+	width: 520px;
+	display: flex;
+	padding: 0 20px;
+}
+.personal-profile .container-personal .personal-right .bio-left {
+	width: 350px;
+}
+
+.personal-profile .container-personal .personal-right .bio-right {
+	width: 350px;
+}
+.personal-profile .container-personal .personal-right h2 {
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+}
+.personal-profile .container-personal .personal-right p {
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+.personal-profile .container-personal .personal-right a {
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	animation-name: rgb-animation-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/* END OF PERSONAL PROFILE */
+
+.education {
+	margin: 20px 0px;
+	color: white;
+}
+
+.education .head-name {
+	width: 1000px;
+	margin: 0 auto;
+}
+.education .head-name h1 {
+	width: 1000px;
+	margin: 0 auto;
+	animation-name: rgb-animation-shadows-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+}
+
+.education .container-education {
+	width: 960px;
+	margin: 15px auto 0;
+	display: flex;
+}
+.education .container-education h2 {
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+	text-decoration: underline;
+}
+.education .container-education .formal ul,.non-formal ul {
+	width: 500px;
+	list-style: none;
+}
+.education .container-education .formal ul li,.non-formal ul li {
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+/* END OF EDUCATION */
+
+.appreciation {
+	margin: 20px 0px;
+	color: white;
+}
+
+.appreciation .head-name {
+	width: 1000px;
+	margin: 0 auto;
+}
+.appreciation .head-name h1 {
+	width: 1000px;
+	margin: 0 auto;
+	animation-name: rgb-animation-shadows-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+}
+.appreciation .container-appreciation {
+	width: 960px;
+	margin: 15px auto 0;
+}
+.appreciation .container-appreciation ul {
+	width: 500px;
+	list-style: none;
+}
+.appreciation .container-appreciation li {
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+/* END OF APPRECIATION */
+
+.skill {
+	margin: 20px 0px;
+	color: white;
+}
+
+.skill .head-name {
+	width: 1000px;
+	margin: 0 auto;
+}
+.skill .head-name h1 {
+	width: 1000px;
+	margin: 0 auto;
+	animation-name: rgb-animation-shadows-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+}
+
+.skill .persentasi-skill-top , .persentasi-skill-bottom {
+	text-align: center;
+}
+.skill .persentasi-skill-top img {
+	width: 100px;
+	margin: 30px 50px 10px;
+}
+.skill .persentasi-skill-bottom img {
+	width: 100px;
+	margin: 10px 50px 30px;
+}
+
+/* END OF SKILL */
+
+.head-name .line {
+	width: 50px;
+	border-bottom: 4px solid white;
+	animation-name: rgb-borders;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+	justify-content: center;
+	margin: 5px 0px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+}
+footer .container-footer {
+	padding: 20px 0px;
+}
+footer .container-footer p {
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: silver;
+	font-size: 16px;
+}
+footer .container-footer a {
+	text-decoration: none;
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	color: white;
+	font-size: 16px;
+}
+footer .container-footer a:hover {
+	color: white;
+	animation-name: rgb-animation-a_hover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
