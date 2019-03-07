@@ -1,14 +1,3 @@
-* {
-	padding: 0px;
-	margin: 0px;
-}
-
-body {
-	background-image: url(../asset/Background.jpg);
-	background-repeat: repeat;
-}
-/* END OF BODY BACKGROUND */
-
 .photo-profile {
 	padding: 20px 0px;
 }
